@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stylixia</title>
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+  <!--Navbar start-->
+  <nav class="navbar">
+    <a href="index.html" class="logo">Stylixia</a>
+    <div class="navbar-nav">
+      <a href="beranda.html"">Home</a>
+      <a href="course.html">Course</a>
+      <a href="aboutus.html">About Us </a>
+      <a href="contact.html">Contact</a>
+      <a href="dataform.html">Data Form</a>
+    </div>
+  </nav>
+  <!--Navbar End-->
+  <div class="form">
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <label for="Gender">Gender</label>
+        <input type="radio" name="gender" id="gender" required value="Laki-laki"><span>Laki</span>
+        <input type="radio" name="gender" id="gender" required value="Perempuan"><span>Perempuan</span>
+        <label for="jurusan">Jurusan</label>
+        <select name="jurusan" id="jurusan">
+          <option value="#"></option> 
+          <option value="Teknik Informatika">Teknik Informatika</option>
+          <option value="Sistem Informasi">Sistem Informasi</option>
+          <option value="Teknik Sipil">Ilmu Komputer</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="course">Course</label>
+        <input type="checkbox" name="course" id="course" value="CSS"><span>CSS</span>
+        <input type="checkbox" name="course" id="course" value="JavaScript"><span>JavaScript</span>
+        <input type="checkbox" name="course" id="course" value="PHP"><span>PHP</span>
+      </div>
+      <textarea name="alasan" id="" cols="60" rows="5" placeholder="Mengapa anda memilih course diatas"></textarea>   
+      <div class="form-group">
+        <button type="submit" class="btn">Send</button>
+        <button type="reset" class="btn">Reset</button>
+      </div>
+    </form>
+  </div>
+
+  </div>
+  <!--Footer start-->
+  <footer>
+      <div class="credit">
+        <p>&copy; 2023 Design By Akbar</p>
+      </div>
+  </footer>
+  <!--Footer End-->
+</body>
+<script src="./js/daf_course.js"></script>
+</html>
